@@ -1,0 +1,11 @@
+let allcontainer = document.getElementById("container");
+
+let container = document.querySelector("section");
+
+let second = document.querySelector("li").getElementByClassName("second");
+
+let third = document.querySelector("ol").getLastChild();
+
+let helloText = document.getElementById("contianer");
+for(let text in helloText){helloText.value() = "Hello!";)
+}

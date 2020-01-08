@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Question 1</h2>
+      <button id="b1" onclick="leftButton()" type="button">ONE</button>
+      <p id="left"></p>
+      <br>
+      <button id="b2" onclick="rightButton()" type="button">TWO</button>
+      <script src="script.js"></script>
+    </div>
+
+    <div class="container">
+      <h2>Question 2</h2>
+      <img id="smiley" onmouseenter="noTouch()" src="download.png">
+    </div>
+
+    <div class="container">
+      <h2>Question 3</h2>
+      <h1 id="completed_form">Submission</h1>
+      <form id="register" action="" method="post">
+	<p>
+	  <label for="username">Username: </label>
+	  <input type="text" name="username" required value="" placeholder="Enter your username">
+	</p>
+	<p>
+	  <label for="email">Email: </label>
+	  <input type="email" name="email" required value="" placeholder="Enter your email">
+	</p>
+	<p>
+	  <label for="password">Password: </label>
+	  <input type="password" name="password" required value="" placeholder="Enter your password">
+	</p>
+	<p>
+	  <button id="submit" onclick="results()" type="button">Submit</button>
+	</p>
+      </form>
+    </div>
+  </body>
+</html>
