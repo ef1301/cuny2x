@@ -56,3 +56,15 @@ class Dog extends Animal { //extends indicates that we want to be a subclass of 
 let d = new Dog('Mitzie');
 d.speak(); //Mitzie makes a noise
 d.cat; //"cat" 
+
+
+Array.prototype.hello = function () {
+    console.log(this);
+}
+
+Array.prototype.hello = () => { //this is binded to the Window and it will not return the array
+    console.log(this;)
+}.bind(this)
+
+let arr = [1,2,3,4];
+arr.hello;
