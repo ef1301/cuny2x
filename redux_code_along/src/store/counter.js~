@@ -1,6 +1,0 @@
-//ACTION TYPES;
-//These action types will be placed inside action objectas and then evaluated by the reducer function in the swtic/case statements
-
-const INCREMENT = 'INCREMENT';
-
-//ACTION CREATOR
